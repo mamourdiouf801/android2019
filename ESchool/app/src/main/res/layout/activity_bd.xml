@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BDActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login"
+            android:id="@+id/txtloginBD"
+            android:textSize="20dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:id="@+id/txtpasswordBD"
+            android:layout_below="@+id/txtloginBD"
+            android:textSize="20dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addUser"
+            android:layout_below="@+id/txtpasswordBD"
+            android:id="@+id/btnAdd"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updateUser"
+            android:layout_below="@+id/btnAdd"
+            android:id="@+id/btnUpdate"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deleteUser"
+            android:layout_below="@+id/btnUpdate"
+            android:id="@+id/btnDelete"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listUser"
+            android:layout_below="@+id/btnDelete"
+            android:id="@+id/btnList"
+
+            />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InscriptionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inscription"
+        android:textSize="@dimen/size_title"
+        android:id="@+id/tvInscription"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ins_margin"
+        android:hint="@string/firstName"
+        android:layout_below="@+id/tvInscription"
+        android:id="@+id/txtFirstName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ins_margin"
+        android:hint="@string/lastName"
+        android:layout_below="@+id/txtFirstName"
+        android:id="@+id/txtLastName"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/degrees"
+        android:textSize="20dp"
+        android:layout_marginTop="@dimen/ins_margin"
+        android:layout_below="@+id/txtLastName"
+        android:id="@+id/tvDegrees"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/oLevel"
+        android:layout_below="@+id/tvDegrees"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cbOLevel"
+        />
+
+    <CheckBox
+        android:id="@+id/cbBachelor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbOLevel"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/bachelor" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/master"
+        android:layout_below="@+id/cbBachelor"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cbMaster"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbMaster"
+        android:text="@string/save"
+        android:layout_marginTop="20dp"
+        android:background="@color/color_blue"
+        android:id="@+id/btnSave"
+        />
+</RelativeLayout>

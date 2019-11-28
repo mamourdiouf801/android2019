@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabFormation">
+        <item>Ing Juridique</item>
+        <item>SI</item>
+        <item>Sys-Reseaux</item>
+        <item>Finance</item>
+        <item>Inf Decisionnelle</item>
+        <item>MPCI</item>
+        <item>SRT</item>
+        <item>Mathematiques</item>
+
+
+    </string-array>
+
+    <string-array name="tabDetails">
+        <item>IDroit politique,Institution intern,Cyber vrim,Affaire,Anglais. Justicier, Avocat, Juge, Greffier</item>
+        <item>Android,Java,Java EE,Python,Algo-Complex,Oracle,MySQL,Linux,VoIp. Developpeur,DBA, Dev Mobile, Analyste Programmeur, Chef de projet</item>
+        <item>Sys-Reseaux</item>
+        <item>Dinance</item>
+        <item>Inf Decisionnelle</item>
+        <item>MPCI</item>
+        <item>SRT</item>
+        <item>Mathematiques</item>
+
+
+    </string-array>
+
+
+</resources>
